@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.9.0",
+    "vue": "^3.4.3",
+    "vue-router": "^4.2.5"
+  },
+  "resolutions": {
+    "@vue/compiler-ssr": "file:./vue-compiler-ssr-3.4.4.tgz",
+    "@vue/compiler-core": "file:./vue-compiler-core-3.4.4.tgz",
+    "@vue/reactivity": "file:./vue-reactivity-3.4.4.tgz",
+    "@vue/server-renderer": "file:./vue-server-renderer-3.4.4.tgz",
+    "@vue/compiler-sfc": "file:./vue-compiler-sfc-3.4.4.tgz",
+    "@vue/compiler-dom": "file:./vue-compiler-dom-3.4.4.tgz",
+    "@vue/runtime-core": "file:./vue-runtime-core-3.4.4.tgz",
+    "@vue/runtime-dom": "file:./vue-runtime-dom-3.4.4.tgz",
+    "@vue/shared": "file:./vue-shared-3.4.4.tgz",
+    "vue": "file:./vue-3.4.4.tgz"
+  }
+}
